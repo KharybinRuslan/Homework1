@@ -72,13 +72,15 @@ body, button{
 
 .frame__game:hover{
     cursor: url('./svg/cursor.svg'), pointer;
-    border: 3px solid #44D2FF;
-    border-radius: 16px;
 }
 
 .frame__game__img{
     position: relative;
     border-radius: 16px;
+}
+
+.frame__game__img:hover{
+    outline: 3px solid #44D2FF;
 }
 
 .frame__game__text{
