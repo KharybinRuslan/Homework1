@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, button{
+    font-family: "Montserrat", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+
+.top{
+    background-image: url(./image/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.top{
+    padding-top: 217px;
+    padding-bottom: 463px;
+}
+
+.top__header{
+    font-weight: 700;
+    font-size: 64px;
+    color: #fff;
+}
+
+.top__text{
+    margin-top: 32px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 178%;
+    color: #fff;
+}
+
+.top__text__fatty{
+    font-weight: 700;
+}
+
+.top__button{
+    margin-top: 44px;
+    border-radius: 30px;
+    background: #9c0332;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding: 13px 74px 13px 74px;
+    border: none;
+}
+
+.top__button:hover{
+    background: #eb443f;
+    cursor: url('./svg/cursor.svg'), pointer;
+}
+
+.frame{
+    background-color: #000915;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: flex;
+    gap: 32px;
+}
+
+.frame__game{
+    position: relative;
+}
+
+.frame__game:hover{
+    cursor: url('./svg/cursor.svg'), pointer;
+}
+
+.frame__game__img{
+    position: relative;
+    border-radius: 16px;
+}
+
+.frame__game__img:hover{
+    outline: 3px solid #44D2FF;
+}
+
+.frame__game__text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    color: #fff;
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+}
+
