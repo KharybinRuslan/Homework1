@@ -55,13 +55,14 @@ num--;
 alert(num);
 
 
-//ЗАДАЧА 8
-let age = parseInt(prompt("Сколько вам лет?"));
+// ЗАДАЧА 8
+let age = Number(prompt("Сколько вам лет?")); // Используем Number для превращения строки в число
 // Выводим сообщение на экран с помощью alert()
 alert("Вам " + age + " " + getAgeEnding(age));
+
 function getAgeEnding(age) {
-// Определяем правильное согласование для слова "год"
-    if (age % 10 == 1 && age % 100 != 11) {
+    // Определяем правильное согласование для слова "год"
+    if (age % 10 === 1 && age % 100 !== 11) { // Используем строгое равенство/неравенство
         return "год";
     } else if ([2, 3, 4].includes(age % 10) && ![12, 13, 14].includes(age % 100)) {
         return "года";
@@ -79,11 +80,11 @@ let user = {
     isAdmin: true 
 };
 //Задание 9.1
-user.cityOfResidence = "Russian";
+user["city of residence"] = "Russian";
 //Задание 9.2
 user.age = 30;
 //Задание 9.3
-delete user["cityOfResidence"];
+delete user["city of residence"];
 //Задание 9.4
 let info = prompt("Какую информацию хотите узнать о пользователе?");
 alert(user[info]);
