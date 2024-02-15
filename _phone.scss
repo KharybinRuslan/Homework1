@@ -1,0 +1,43 @@
+@media (max-width:767px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top{
+        padding-top: 239px;
+        padding-bottom: 239px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__header{
+            font-weight: 700;
+            font-size: 32px;
+            text-align: center;
+        }
+        &__text{
+            font-size: 14px;
+            line-height: 157%;
+            text-align: center;
+            max-width: 343px;
+        }
+        &__button{
+            text-align: center;
+            position: center;
+            margin-top: 32px;
+        }
+    }
+    .frame{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__game{
+            &-img{
+                max-width: 343px;
+                height: 300px;
+            }
+            &-text{
+                left: 16px;
+            }
+        }
+    }
+}
