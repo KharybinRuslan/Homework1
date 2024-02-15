@@ -33,7 +33,7 @@ body, button {
   color: #fff;
   width: 481px;
 }
-.top__text_fatty {
+.top__highlighted-text {
   font-weight: 700;
 }
 .top__button {
@@ -64,14 +64,14 @@ body, button {
 .frame__game:hover {
   cursor: url("./svg/cursor.svg"), pointer;
 }
-.frame__game_img {
+.frame__game-img {
   position: relative;
   border-radius: 16px;
 }
-.frame__game_img:hover {
+.frame__game-img:hover {
   outline: 3px solid #44D2FF;
 }
-.frame__game_text {
+.frame__game-text {
   font-weight: 600;
   font-size: 24px;
   line-height: 133%;
@@ -114,11 +114,11 @@ body, button {
     flex-direction: column;
     align-items: center;
   }
-  .frame__game_img {
+  .frame__game-img {
     max-width: 343px;
     height: 300px;
   }
-  .frame__game_text {
+  .frame__game-text {
     left: 16px;
   }
 }/*# sourceMappingURL=style.css.map */

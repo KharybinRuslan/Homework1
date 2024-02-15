@@ -31,9 +31,9 @@ body, button{
         line-height: 178%;
         color: #fff;
         width: 481px;
-        &_fatty{
-            font-weight: 700;
-        }
+    }
+    &__highlighted-text{
+        font-weight: 700;
     }
     &__button{
         margin-top: 44px;
@@ -62,14 +62,14 @@ body, button{
         &:hover{
             cursor: url('./svg/cursor.svg'), pointer;
         }
-        &_img{
+        &-img{
             position: relative;
             border-radius: 16px;
             &:hover{
                 outline: 3px solid #44D2FF;
             }
         }
-        &_text{
+        &-text{
             font-weight: 600;
             font-size: 24px;
             line-height: 133%;
