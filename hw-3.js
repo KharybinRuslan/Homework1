@@ -1,11 +1,13 @@
 //ЗАДАЧА 1
-let password = 'пароль';
-let userInput = prompt('Введите пароль:');
+let correctPassword = 'пароль';
+let userPassword = prompt("Введите пароль:");
 
-if (userInput === userInput) {
-    console.log(`Пароль введен верно`)
+if (userPassword === correctPassword) {
+
+    alert("Пароль введен верно");
 } else {
-    console.log(`Пароль введен неправильно`)
+
+    alert("Пароль введен неправильно");
 }
 
 //ЗАДАЧА 2
