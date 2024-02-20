@@ -42,8 +42,6 @@ console.log("Количество итераций: " + num);
 // Задача 6
 const firstFriday = 5;
 
-for (let day = 1; day <= 31; day++) {
-    if ((day + firstFriday - 1) % 7 === 0) {
-        console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
-    }
+for (let day = firstFriday; day <= 31; day += 7) {
+    console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
 }
