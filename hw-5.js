@@ -147,8 +147,3 @@ console.log("Периметр окружности circle1:", circle1.getPerimet
 // Проверка работы методов для circle2
 console.log("Площадь круга circle2:", circle2.getArea());
 console.log("Периметр окружности circle2:", circle2.getPerimeter());
-
-
-
-
-//ЗАДАЧА 8
