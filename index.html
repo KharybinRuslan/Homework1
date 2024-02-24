@@ -20,10 +20,10 @@
         <button class="top__button">Поехали!</button>
     </div>
     <div class="frame center">
-        <div class="frame__game">
+        <div class="frame__game" id="game1">
             <img class="frame__game-img" src="./image/Game1.jpg" alt="Game1">
             <p class="frame__game-text">Игра 1</p>
-        </div>
+        </div>     
         <div class="frame__game">
             <img class="frame__game-img" src="./image/Game2.jpg" alt="Game2">
             <p class="frame__game-text">Игра 2</p>
@@ -36,12 +36,15 @@
     <div class="block center">
         <div class="block__left">
             <h3 class="block__heading">Времена года</h3>
-            <p class="block__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-            <button class="block__button">Поехали!</button>
+            <p class="block__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+                времени года он относится</p>
+            <button class="block__button" id="checkButton">Поехали!</button>
+            <p id="result"></p>
         </div>
         <div class="block__right">
             <!--<img src="./svg/undraw_video_game_night_1.svg" alt="">-->
-            <svg class="block__svg" width="485" height="334" viewBox="0 0 485 334" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="block__svg" width="485" height="334" viewBox="0 0 485 334" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_2203_44)">
                     <path
                         d="M416.377 139.54C423.062 146.577 430.52 147.7 438.752 142.909C435.298 137.353 434.475 131.309 435.396 124.942H419.36C420.071 130.537 419.88 135.746 416.377 139.54Z"
@@ -276,7 +279,8 @@
             <button class="block__button">Играть</button>
         </div>
         <div class="block__left">
-            <svg class="block__svg" width="481" height="322" viewBox="0 0 481 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="block__svg" width="481" height="322" viewBox="0 0 481 322" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_2203_119)">
                     <path d="M468.717 311.028L463.966 313.057L453.897 295.651L460.909 292.656L468.717 311.028Z"
                         fill="#FFB6B6" />
@@ -563,6 +567,8 @@
     <div class="footer center">
         <p class="footer__text">Все права защищены</p>
     </div>
+
+    <script src="game.js"></script>
 </body>
 
 </html>
