@@ -111,12 +111,12 @@ let circle1 = {
     radius: 5,
 
     // Метод для вычисления площади круга
-    getArea: function() {
+    getArea: function () {
         return Math.PI * this.radius ** 2;
     },
 
     // Метод для вычисления периметра окружности
-    getPerimeter: function() {
+    getPerimeter: function () {
         return 2 * Math.PI * this.radius;
     }
 };
@@ -126,12 +126,12 @@ let circle2 = {
     radius: 8,
 
     // Метод для вычисления площади круга
-    getArea: function() {
+    getArea: function () {
         return Math.PI * this.radius ** 2;
     },
 
     // Метод для вычисления периметра окружности
-    getPerimeter: function() {
+    getPerimeter: function () {
         return 2 * Math.PI * this.radius;
     }
 };
